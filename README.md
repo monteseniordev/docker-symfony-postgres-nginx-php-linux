@@ -1,4 +1,4 @@
-# Minimal clean Docker configuration with PHP 8.2+, NGINX 1.25+, PostgreSQL 16.0 + and Symfony 7.0 on ubuntu22.04 in VM of Windows10 for development.
+# Minimal clean Docker configuration with PHP 8.2+, NGINX 1.25+, PostgreSQL 16.0 + and Symfony 7.0 on ubuntu22.04 in VM of Windows10 for web development.
 # Funny
 
 - Based on Alpine Linux.
