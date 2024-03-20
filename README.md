@@ -82,6 +82,7 @@ sudo apt-get update
 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
 sudo apt install php8.2 -y php-curl
+sudo apt-get install -y php8.2-cli php8.2-common php8.2-fpm php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ```
