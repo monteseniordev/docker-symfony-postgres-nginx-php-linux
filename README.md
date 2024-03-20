@@ -79,8 +79,9 @@ sudo apt-get update
 
 # Install curl and PHP
 ```
-sudo apt-get install curl
-sudo apt-get install php php-curl
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+sudo apt install php8.2 -y php-curl
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ```
